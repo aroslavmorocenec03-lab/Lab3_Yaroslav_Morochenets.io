@@ -1,41 +1,18 @@
-html {
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-
-h1 {
-  font-size: 60px;
-  text-align: center;
-}
-
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
-
-html {
-  background-color: #00539F;
-}
-
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #FF9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
-}
-
-h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #00539F;
-  text-shadow: 3px 3px 1px black;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-}
+* { box-sizing: border-box; }
+body { margin: 0; color: #eaf1fa; background: #101926; font: 17px/1.6 system-ui, sans-serif; }
+header, main, footer { width: min(1180px, 92%); margin: auto; }
+header { padding: 48px 0 30px; }
+.eyebrow { color: #8acbdb; font-size: 14px; letter-spacing: .08em; }
+h1 { margin: 8px 0; font-size: clamp(32px, 4vw, 52px); line-height: 1.15; }
+header > p:last-child, footer { color: #b5c2d1; }
+.gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+figure { margin: 0; background: #1a2738; border: 1px solid #344458; border-radius: 14px; overflow: hidden; }
+img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: #000; }
+figcaption { padding: 20px 24px 24px; }
+figcaption span { color: #8acbdb; font-size: 13px; }
+h2 { font-size: 25px; margin: 4px 0 0; }
+figcaption p { margin: 6px 0 14px; color: #b5c2d1; }
+a { color: #9ad9ec; }
+a:focus-visible { outline: 3px solid #ffdb85; outline-offset: 4px; }
+footer { padding: 28px 0; font-size: 14px; }
+@media (max-width: 800px) { .gallery { grid-template-columns: 1fr; } header { padding-top: 30px; } }

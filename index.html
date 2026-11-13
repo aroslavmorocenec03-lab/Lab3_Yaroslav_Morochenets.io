@@ -1,25 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>Mozilla is cool</h1>
-    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
-
-    <p>At Mozilla, we’re a global community of</p>
-
-    <ul> <!-- changed to list in the tutorial -->
-      <li>technologists</li>
-      <li>thinkers</li>
-      <li>builders</li>
-    </ul>
-
-    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
-
-    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
-  </body>
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Фотоальбом — Ярослав Мороченець</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header><p class="eyebrow">Лабораторна робота 3 · Робота з Git</p>
+    <h1>Космос у трьох кадрах</h1>
+    <p>Фотоальбом Ярослава Мороченця. Земля, Місяць і Юпітер на знімках NASA.</p>
+  </header>
+  <main class="gallery" aria-label="Космічний фотоальбом">
+    <figure><a href="images/earth.jpg" target="_blank" rel="noopener"><img src="images/earth.jpg" width="1280" height="1280" alt="Земля з космосу: океани, материки та хмари"></a>
+      <figcaption><span>01</span><h2>Земля</h2><p>Наш дім у космосі.</p><a href="https://images.nasa.gov/details/PIA18033">NASA · PIA18033</a></figcaption></figure>
+    <figure><a href="images/moon.jpg" target="_blank" rel="noopener"><img src="images/moon.jpg" width="1280" height="1280" alt="Поверхня Місяця з кратерами та променями кратера Тихо"></a>
+      <figcaption><span>02</span><h2>Місяць</h2><p>Природний супутник Землі.</p><a href="https://images.nasa.gov/details/PIA00405">NASA/JPL/USGS · PIA00405</a></figcaption></figure>
+    <figure><a href="images/jupiter.jpg" target="_blank" rel="noopener"><img src="images/jupiter.jpg" width="1280" height="1280" alt="Юпітер із кольоровими смугами хмар"></a>
+      <figcaption><span>03</span><h2>Юпітер</h2><p>Газовий гігант Сонячної системи.</p><a href="https://images.nasa.gov/details/PIA00343">NASA/JPL/USGS · PIA00343</a></figcaption></figure>
+  </main>
+  <footer><p>Натисни на знімок, щоб відкрити повний розмір. Зображення зберігаються локально; альбом працює без інтернету.</p>
+    <p>Навчальний проєкт · Ярослав Мороченець · 2026</p></footer>
+</body>
 </html>
